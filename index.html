@@ -11,24 +11,24 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/custom.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <link href="./css/custom.js" rel="stylesheet">
+    <script src="./js/custom.js"></script>
+    
 </head>
 
 <body>
 <main role="main" class="container">
 
-<h1 class="mt-5">Quote of the Day</h1>
-
-<p class="lead">If everything seems under control, you're not going fast enough.</p>
-      
-<p>Mario Andretti</p>
-
+<h1 style="padding-top:300px;" class="mt-5">Quote of the Day</h1>
+    <section ng-app="inovalonQuote" ng-controller="inovQuote as quote">
+        <p class="lead">{{quote.info.text}}</p>
+        <p>{{quote.info.textby}}</p>
+    </section>
 </main>
 
 <footer class="footer">
  
     <div class="container">
-    <span class="text-muted">Let's make this an amazing day!</span>
+    <span class="text-muted">Let's make this an amazing day! </span>
     </div>
     
 </footer>

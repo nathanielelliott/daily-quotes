@@ -9,7 +9,7 @@ This is a quick tool to get something up on the board as people walk in. The end
 
 ### Next Ideas - 
   - Build rotator (angular reading from easy place to upload)
-  - Voting system (and show based on each day, how people feel).
+  - Voting system (and show based on each day, how people feel). [Voting Tutorial](https://hackernoon.com/build-a-realtime-voting-app-in-less-than-10-min-336ec364b5da)
 
 ### Tech Stack - 
   - Cloud9 Development Enviorment
